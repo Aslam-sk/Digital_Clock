@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -20vw;
+    background: url(/images/tableclock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(220, 220, 245);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    color: rgb(245, 245, 245);
+    border-radius: 10px;
+    height: 7vh;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+}
+
+.clock span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 116, 65);
+    color: white;
+    opacity: 0.8;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black 0.3;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: coral;
+    opacity: 0.9;
+    border-radius: 20%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 4px;
+}
+
+.clock #time-format{
+    position: absolute;
+    top: 188px;
+    width: 60px;
+    height: 30px;
+    border-radius: 20%;
+    font-size: 20px;
+    opacity: 0.9;
+    background-color: aqua;
+    color: black;
+    border: 2px solid  rgb(255, 255, 255);
+}
