@@ -10,7 +10,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     margin-left: -20vw;
-    background: url(/images/tableclock.jpg);
+    background: url(/Digital_Clock/images/tableclock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(220, 220, 245);
